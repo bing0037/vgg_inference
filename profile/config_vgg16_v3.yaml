@@ -1,0 +1,65 @@
+
+# define prune ratios for your network
+# 80.78 / 82.07 / 85.95 (filter sparsity / column / weight sparsity)
+prune_ratios:
+#   module.features.0.weight:
+#     0
+   module.features.3.weight:
+     0.2517
+   module.features.7.weight:
+     0.4740
+   module.features.10.weight:
+     0.6658
+   module.features.14.weight:
+     0.6181
+   module.features.17.weight:
+     0.5573
+   module.features.20.weight:
+     0.5590
+   module.features.24.weight:
+     0.8
+   module.features.27.weight:
+     0.8826
+   module.features.30.weight:
+     0.9503
+   module.features.34.weight:
+     0.9709
+   module.features.37.weight:
+     0.9813
+   module.features.40.weight:
+     0.9698
+               
+
+#prune_ratios:
+#   features.0.weight:
+#     0.5625
+#   features.3.eight:
+#     0.2969
+#   features.7.weight:
+#     0.2969
+#   features.10.weight:
+#     0.2031
+#   features.14.weight:
+#     0.25
+#   features.17.weight:
+#     0.25
+#   features.20.weight:
+#     0.3008
+#   features.23.eight:
+#     0.6426
+#   features.27.weight:
+#     0.8281
+#   features.30.weight:
+#     0.8555
+#   features.33.weight:
+#     0.8434
+#   features.36.weight:
+#     0.8089
+#   features.40.weight:
+#     0.75
+#   features.43.weight:
+#     0.9434
+#   features.46.weight:
+#     0.8438
+#   features.49.weight:
+#     0.75

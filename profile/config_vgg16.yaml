@@ -1,0 +1,29 @@
+# define prune ratios for your network
+# 66.66 / 75.99 (filter sparsity / weight sparsity)
+prune_ratios:
+   features.0.weight:
+     0.5625
+   features.3.weight:
+     0.2969
+   features.7.weight:
+     0.2969
+   features.10.weight:
+     0.2031
+   features.14.weight:
+     0.25
+   features.17.weight:
+     0.25
+   features.20.weight:
+     0.3008
+   features.24.weight:
+     0.6426
+   features.27.weight:
+     0.8281
+   features.30.weight:
+     0.8555
+   features.34.weight:
+     0.9434
+   features.37.weight:
+     0.8438
+   features.40.weight:
+     0.75
